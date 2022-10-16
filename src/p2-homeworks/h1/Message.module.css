@@ -1,0 +1,57 @@
+.block {
+    background: darkorchid;
+    margin: 0 auto;
+    width: 1200px;
+    height: 900px;
+    font-family: "Baskerville Old Face", serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:"a m";
+    grid-template-columns: 40px 10fr;
+}
+
+.messageCont {
+    display: block;
+    grid-area: m;
+    position: relative;
+    background: darkslateblue;
+    width: 200px;
+    height: 70px;
+    font-size: 14px;
+    margin-left: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+.name{
+    font-size: 16px;
+}
+.messageCont::after {
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    left: -9px;
+    width: 40px; height: 40px;
+    bottom: 0; /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-bottom: 23px solid darkslateblue;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border: 2px solid darkslateblue;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 50%;
+    grid-area: a;
+}
+.name{
+    color:darkgreen;
+}
+.time{
+    opacity: 0.3;
+    margin-left: 70%;
+    position: relative;
+    margin-bottom: 15px;
+}
