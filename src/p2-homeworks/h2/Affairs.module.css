@@ -1,3 +1,79 @@
-.someClass {
+.affair{
+    display: flex;
+}
+.item {
+    margin:10px;
+    width: 150px;
+    height: 24px;
+}
+.buttonFromItem{
+    border:none;
+    float: right;
+    padding-top: 4px;
+    background: none;
+}
+.low{
+    border:2px solid green;
+    border-radius: 4px;
+    padding: 1px;
+}
+.high{
+    border:2px solid red;
+    border-radius: 4px;
+    padding: 1px;
+}
+.middle{
+    border:2px solid orange;
+    border-radius: 4px;
+    padding: 1px;
+}
+.all {
+    color: dodgerblue;
+}
+button{
+    background: none;
+    border-radius: 40px;
+}
+.buttonPriorityAll{
+    border:2px solid dodgerblue;
+    color:dodgerblue;
+    margin: 4px;
+}
+.buttonPriorityAll:hover{
+    background: dodgerblue;
+    color: white;
+    transition: 1s;
+}
 
+.buttonPriorityLow{
+    border:2px solid green;
+    color: green;
+    margin: 4px;
+}
+.buttonPriorityLow:hover{
+    background: green;
+    color: white;
+    transition: 1s;
+}
+
+.buttonPriorityMiddle{
+    border:2px solid orange;
+    color: orange;
+    margin: 4px;
+}
+.buttonPriorityMiddle:hover{
+    background: orange;
+    color: white;
+    transition: 1s;
+}
+
+.buttonPriorityHigh{
+    border:2px solid red;
+    color: red;
+    margin: 4px;
+}
+.buttonPriorityHigh:hover{
+    background: red;
+    color: white;
+    transition: 1s;
 }

@@ -1,9 +1,7 @@
 .block {
-    background: darkorchid;
     margin: 0 auto;
-    width: 1200px;
-    height: 900px;
     font-family: "Baskerville Old Face", serif;
+    padding: 10px;
 }
 
 .container {
@@ -16,7 +14,7 @@
     display: block;
     grid-area: m;
     position: relative;
-    background: darkslateblue;
+    background: darkgrey;
     width: 200px;
     height: 70px;
     font-size: 14px;
@@ -34,7 +32,7 @@
     width: 40px; height: 40px;
     bottom: 0; /* Положение треугольника */
     border: 10px solid transparent; /* Прозрачные границы */
-    border-bottom: 23px solid darkslateblue;
+    border-bottom: 23px solid darkgrey;
 }
 
 .avatar {
@@ -45,9 +43,6 @@
     position: relative;
     margin-top: 50%;
     grid-area: a;
-}
-.name{
-    color:darkgreen;
 }
 .time{
     opacity: 0.3;
